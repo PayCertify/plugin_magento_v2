@@ -24,6 +24,8 @@
 
 namespace PayCertify\Gateway\Helper;
 
+use Magento\Framework\App\Helper\AbstractHelper;
+
 /**
  * PayCertify helper
  *
@@ -31,6 +33,6 @@ namespace PayCertify\Gateway\Helper;
  * @package    PayCertify_Gateway
  * @author     Valentin Sushkov <me@vsushkov.com>
  */
-class Data extends Mage_Core_Helper_Data
+class Data extends AbstractHelper
 {
 }
