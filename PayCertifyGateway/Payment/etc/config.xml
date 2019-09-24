@@ -7,9 +7,8 @@
               <payment_action>authorize_capture</payment_action> 
               <title>PayCertify Gateway</title>
               <api_key backend_model="Magento\Config\Model\Config\Backend\Encrypted" />
+              <processor_id backend_model="Magento\Config\Model\Config\Backend\Encrypted" />
               <cctypes>AE,VI,MC,DI,JCB</cctypes>
-              <allowspecific>0</allowspecific>
-              <min_order_total>1</min_order_total>
          </paycertifygateway>
      </payment>
   </default>
