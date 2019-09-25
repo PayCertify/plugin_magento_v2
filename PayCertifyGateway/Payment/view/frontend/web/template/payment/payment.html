@@ -20,6 +20,19 @@
     </div>
       <!-- Render the native credit card form. -->
     <form class="form" data-bind="attr: {'id': getCode() + '-form'}">
+      <input type="hidden" data-paycertify="amount" value="1"/>
+      <input type="text" data-paycertify="first-name"/>
+      <input type="text" data-paycertify="last-name"/>
+      <input type="text" data-paycertify="address-l1"/>
+      <input type="text" data-paycertify="address-l2"/>
+      <input type="text" data-paycertify="city"/>
+      <input type="text" data-paycertify="state"/>
+      <input type="text" data-paycertify="country"/>
+      <input type="text" data-paycertify="zip"/>
+      <input type="text" data-paycertify="card-number"/>
+      <input type="text" data-paycertify="card-expiry-month"/>
+      <input type="text" data-paycertify="card-expiry-year"/>
+      <input type="text" data-paycertify="card-cvv"/>
      <!-- ko template: 'Magento_Payment/payment/cc-form' --> 
      <!-- /ko --> 
     </form>
