@@ -72,7 +72,6 @@ class Payment extends \Magento\Payment\Model\Method\Cc
         $this->cart = $cart; 
         $this->_countryFactory = $countryFactory;
    	}
-
-
-
+   	
 }
+

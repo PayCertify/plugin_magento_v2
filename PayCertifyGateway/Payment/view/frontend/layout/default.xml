@@ -1,5 +1,0 @@
-<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
-    <head>
-        <script src="https://js.paycertify.com/paycertify.min.js?key=AB32B540C85B0F5A43E30CC6C9377AAA4E709AD4" src_type="url"/>
-    </head>
-</page>
